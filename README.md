@@ -12,7 +12,7 @@ class WebsiteDeveloper:
 
     def __init__(self):
         self.name = "Krzys"
-        self.role = "Website Developer"
+        self.role = "Discord Bot & Web Developer"
         self.language_spoken = ["en_UK", "pl_PL"]
 
     def say_hi(self):
