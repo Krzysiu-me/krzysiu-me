@@ -8,17 +8,17 @@
 # -*- coding: utf-8 -*-
 
 
-class WebsiteDeveloper:
+class MinecraftDeveloper:
 
     def __init__(self):
         self.name = "Krzys"
-        self.role = "Discord Bot & Web Developer"
+        self.role = "Minecraft Plugins + Discord Bots + Websites"
         self.language_spoken = ["en_UK", "pl_PL"]
 
     def say_hi(self):
         print("Thanks for dropping by, hope you find some of my work interesting.")
 
 
-me = WebsiteDeveloper()
+me = MinecraftDeveloper()
 me.say_hi()
 ```
