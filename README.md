@@ -8,17 +8,19 @@
 # -*- coding: utf-8 -*-
 
 
-class MinecraftDeveloper:
+class Developer {
+    constructor() {
+        this.name = "Krzysiu";
+        this.role = "Discord Bot Dev & Fullstack Dev";
+        this.languages = ["en_UK", "pl_PL"];
+    }
+    hi() {
+        console.log(
+            `Hi, I'm ${this.name} — ${this.role}\nLanguages: ${this.languages.join(", ")}\nThanks for visiting!`
+        );
+    }
+}
 
-    def __init__(self):
-        self.name = "Krzys"
-        self.role = "Minecraft Plugins + Discord Bots + Websites"
-        self.language_spoken = ["en_UK", "pl_PL"]
+new Developer().hi();
 
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
-
-
-me = MinecraftDeveloper()
-me.say_hi()
 ```
