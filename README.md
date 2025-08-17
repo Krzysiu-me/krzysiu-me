@@ -11,7 +11,7 @@
 class Developer {
     constructor() {
         this.name = "Krzysiu";
-        this.role = "Discord Bot Dev & Fullstack Dev";
+        this.role = "Fullstack Dev";
         this.languages = ["en_UK", "pl_PL"];
     }
     hi() {
